@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 -->
+<resources>
+    <color name="colorPrimary">#8DC80F</color>
+    <color name="colorPrimaryDark">#7FB311</color>
+    <color name="colorAccent">#8DC80F</color>
+
+    <color name="colorLoading">#55000000</color>
+    <color name="colorBlack02">#33000000</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="grayHeader">#F2F3F4</color>
+    <color name="grayRedHeader">#FF7F7F</color>
+    <color name="yellow">#f1c40f</color>
+    <color name="red">#FF193D</color>
+    <color name="colorRedRejected">#FF5B5B</color>
+
+
+
+    <color name="colorGreenText">#8DC80F</color>
+    <color name="colorGreenUnselected">#B1DB6D</color>
+
+    <color name="colorGrayReceived">#CCD8DE</color>
+    <color name="colorGrayText">#898DA6</color>
+    <color name="colorGrayBottom">#FBFCFD</color>
+    <color name="colorGrayStatusBar">#08E5E5E5</color>
+    <color name="colorGrayDate">#A6AAB4</color>
+    <color name="colorGrayDisableWorkflow">#AAB5BF</color>
+    <color name="colorGrayForm">#EBEFF2</color>
+    <color name="colorGrayEditText">#66EBEFF2</color>
+    <color name="colorGrayBorder">#e8e9ec</color>
+    <color name="colorBlacktext">#525364</color>
+    <color name="colorBorderEditText">#D6D6D6</color>
+    <color name="colorBlueDate">#81C8EE</color>
+    <color name="colorBlueSent">#A4D9F5</color>
+
+
+    <color name="colorBackground">#E5E5E5</color>
+    <color name="green_background">#7FB311</color>
+</resources>
