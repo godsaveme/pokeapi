@@ -9,8 +9,20 @@
     <attr name="image" format="reference" />
 
 
+    <declare-styleable name="TitleEditextView">
+        <attr name="title" />
+
+    </declare-styleable>
 
 
+    <declare-styleable name="TitleEmailView">
+        <attr name="title" />
 
+    </declare-styleable>
+
+    <declare-styleable name="TitlePasswordView">
+        <attr name="title" />
+
+    </declare-styleable>
 
 </resources>

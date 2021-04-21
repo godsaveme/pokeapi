@@ -1,6 +1,7 @@
 package com.bcp.bank.proyectofinal.util
 
 
+import android.graphics.drawable.GradientDrawable
 import android.view.View
 
 
@@ -16,3 +17,23 @@ fun View.onClick(onClick: () -> Unit) {
 
 //endregion
 
+
+
+fun GradientDrawable.setCornerRadius(
+    radius: Number,
+    topLeftRadius: Number = 0f,
+    topRightRadius: Number = 0f,
+    bottomLeftRadius: Number = 0f,
+    bottomRightRadius: Number = 0f
+) {
+    if (radius != 0f) {
+        cornerRadius = radius.toFloat()
+    } else {
+        cornerRadii = floatArrayOf(
+            topLeftRadius.toFloat(), topLeftRadius.toFloat(),
+            topRightRadius.toFloat(), topRightRadius.toFloat(),
+            bottomRightRadius.toFloat(), bottomRightRadius.toFloat(),
+            bottomLeftRadius.toFloat(), bottomLeftRadius.toFloat()
+        )
+    }
+}

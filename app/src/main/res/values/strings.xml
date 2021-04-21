@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Proyecto Final</string>
+
+
+    <string name="lbl_welcome">Bienvenido</string>
+    <string name="lbl_description">Consulta de forma facil y sencilla</string>
+    <string name="lbl_correo">Correo</string>
+    <string name="lbl_passwrod">Contraseña</string>
+
+    <string name="but_login">Iniciar Sesión</string>
+    <string name="but_registrarse">Registrarse</string>
+
+    <string name="lbl_login_description">Llena tus formularios con un clic</string>
+
 </resources>
