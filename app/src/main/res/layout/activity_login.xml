@@ -67,7 +67,7 @@
         app:title="@string/lbl_passwrod" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/butLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/but_login"
