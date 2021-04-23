@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.bcp.bank.proyectofinal.databinding.FragmentMainBinding
 import com.bcp.bank.proyectofinal.ui.adapter.MainAdapter
-
+import dagger.hilt.android.AndroidEntryPoint
 
 class MainFragment : Fragment() {
 

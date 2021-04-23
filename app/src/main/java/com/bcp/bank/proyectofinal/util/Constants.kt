@@ -1,16 +1,13 @@
 package com.bcp.bank.proyectofinal.util
 
 
-
 object Constants {
 
     //Web Service IP
-    const val BASE_URL = "http://demo4049540.mockable.io/"
+    const val BASE_URL = "https://rickandmortyapi.com/api/"
     const val GENERAL_EMPTY_TEXT = 0
     const val REST_TIMEOUT = 25.toLong()
     const val GENERAL_LOG_APP_TAG = "CED_LOG"
-
-
 
 
     /* REST String Responses */
@@ -20,7 +17,6 @@ object Constants {
     const val NOT_FOUND = 404
     const val INT_SRV_ERROR = 500
     const val UNAUTHORIZED = 401
-
 
 
     enum class EnumViewLoading {
