@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.bcp.bank.proyectofinal.data.entities.AllCharacterResponse
+import com.bcp.bank.proyectofinal.data.entities.PokemonCharacter
 import com.bcp.bank.proyectofinal.data.entities.RMCharacter
 import com.bcp.bank.proyectofinal.databinding.FragmentNotificationBinding
 import com.bcp.bank.proyectofinal.databinding.FragmentProfileBinding
@@ -65,8 +66,6 @@ class ProfileFragment : Fragment() {
             "Nombre de Personaje: ${response.name}",
             Toast.LENGTH_SHORT
         ).show()
-
-
 
 
     }

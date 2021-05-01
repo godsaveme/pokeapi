@@ -4,17 +4,17 @@
     <item
         android:id="@+id/mainFragment"
         android:icon="@drawable/ic_gps"
-        android:title="Principal" />
+        android:title="" />
 
     <item
         android:id="@+id/notification"
         android:icon="@drawable/ic_4k"
-        android:title="Notificaciones" />
+        android:title="" />
 
-    <item
+    <!--<item
         android:id="@+id/profile"
         android:icon="@drawable/ic_4k"
-        android:title="Perfil" />
+        android:title="Perfil" />-->
 
 
 </menu>

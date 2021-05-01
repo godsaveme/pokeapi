@@ -13,4 +13,8 @@ class RMRemoteDataSource @Inject constructor(
 
     suspend fun getSingleCharacter(id: String) = safeApiCall { service.getSingleCharacter(id = id) }
 
+    suspend fun getSinglePokemonById(id: String) = safeApiCall { service.getSinglePokemonById(id = id) }
+
+    suspend fun getSinglePokemonByName(name: String) = safeApiCall { service.getSinglePokemonByName(name = name) }
+
 }

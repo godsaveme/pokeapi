@@ -3,11 +3,20 @@ package com.bcp.bank.proyectofinal.rest
 
 import com.bcp.bank.proyectofinal.data.entities.AllCharacterResponse
 import com.bcp.bank.proyectofinal.data.entities.RMCharacter
+import com.bcp.bank.proyectofinal.data.entities.PokemonCharacter
 import retrofit2.Response
 import retrofit2.http.*
 
 
 interface ApiService {
+
+
+    // PokeApi APIs
+    @GET("pokemon-form/{id}")
+    suspend fun getSinglePokemonById(@Path("id") id: String): Response<PokemonCharacter>
+
+    @GET("pokemon/{name}")
+    suspend fun getSinglePokemonByName(@Path("name") name: String): Response<PokemonCharacter>
 
     //region login
     @GET("character")

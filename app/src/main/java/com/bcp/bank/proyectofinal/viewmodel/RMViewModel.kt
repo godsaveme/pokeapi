@@ -5,6 +5,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.bcp.bank.proyectofinal.data.entities.AllCharacterResponse
+import com.bcp.bank.proyectofinal.data.entities.PokemonCharacter
 import com.bcp.bank.proyectofinal.data.entities.RMCharacter
 import com.bcp.bank.proyectofinal.data.remote.Result
 import com.bcp.bank.proyectofinal.data.repository.RMRepository
@@ -25,6 +26,9 @@ class RMViewModel @Inject constructor(private val repository: RMRepository) : Vi
 
     private val _character = MutableLiveData<RMCharacter>()
     val character: LiveData<RMCharacter> = _character
+
+    private val _pokemonCharacter = MutableLiveData<PokemonCharacter>()
+    val pokemonCharacter: LiveData<PokemonCharacter> = _pokemonCharacter
 
 
     fun doListAllCharacter() {
@@ -84,6 +88,24 @@ class RMViewModel @Inject constructor(private val repository: RMRepository) : Vi
         }
 
 
+    }
+
+    fun doGetPokemonCharacter(id: String) {
+        viewModelScope.launch {
+            var result: Result<PokemonCharacter> = withContext(Dispatchers.IO) {
+                repository.getSinglePokemonById(id = id)
+            }
+
+            when (result) {
+                is Result.Success -> {
+                    _pokemonCharacter.value = result.data
+                }
+
+                is Result.ApiError -> {
+
+                }
+            }
+        }
     }
 
 

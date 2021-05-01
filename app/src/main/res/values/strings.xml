@@ -21,4 +21,14 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
+    //PokeApi
+
+    <string name="pokeApi_welcome">Bienvenidos</string>
+    <string name="pokeApi_second">Toda la información de Pokemon en un \n solo lugar</string>
+    <string name="pokeApi_btn_start">Iniciar</string>
+    <string name="pokeApi_frg_one_title">Buscador Pokemon por ID</string>
+    <string name="pokeApi_frg_one_second">ID Pokemon</string>
+    <string name="pokeApi_frg_one_placeholder">Escribir ID pokemon</string>
+    <string name="pokeApi_frg_one_btn_search">Buscar</string>
+
 </resources>

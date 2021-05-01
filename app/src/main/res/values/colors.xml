@@ -38,4 +38,10 @@
 
     <color name="colorBackground">#E5E5E5</color>
     <color name="green_background">#7FB311</color>
+
+    //PokeApi
+
+    <color name="pokeApiMain">#EF534F</color>
+    <color name="pokeApiSecond">#898DA6</color>
+    <color name="pokeApiThird">#525364</color>
 </resources>

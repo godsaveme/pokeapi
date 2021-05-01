@@ -4,7 +4,7 @@ package com.bcp.bank.proyectofinal.util
 object Constants {
 
     //Web Service IP
-    const val BASE_URL = "https://rickandmortyapi.com/api/"
+    const val BASE_URL = "https://pokeapi.co/api/v2/"
     const val GENERAL_EMPTY_TEXT = 0
     const val REST_TIMEOUT = 25.toLong()
     const val GENERAL_LOG_APP_TAG = "CED_LOG"
